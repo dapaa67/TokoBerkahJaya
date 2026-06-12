@@ -37,7 +37,13 @@ Aplikasi Point of Sales (Kasir) & Manajemen Inventori modern berbasis **Java Swi
 5. **Akses Default**:
    - **Username**: `admin`
    - **Password**: `admin123`
-  
+
+## Library & Plugin Penting
+Jika saat project di-clone terjadi eror *Missing Libraries* atau modul laporan tidak terbaca, silakan ikuti langkah berikut:
+1. Download file **[PLUGIN_&_LIBRARY_IREPORT.zip](./PLUGIN_&_LIBRARY_IREPORT.zip)** yang ada di repository ini.
+2. Ekstrak file zip tersebut di komputer Anda.
+3. Di NetBeans, klik kanan folder **Libraries** pada project -> **Add JAR/Folder** -> Masukkan semua file `.jar` hasil ekstrak tadi.
+4. Untuk *iReport Designer*, instal plugin `.nbm` yang tersedia di dalam folder tersebut melalui menu **Tools** -> **Plugins** -> **Downloaded** di NetBeans.****
 
 ## Developer
 - Muhammad Daffa | 221011400800 | 06tplp014
